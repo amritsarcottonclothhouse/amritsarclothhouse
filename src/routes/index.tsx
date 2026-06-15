@@ -58,6 +58,9 @@ function App() {
     "/home5.png",
   ];
 
+  const baseUrl =
+    'https://raw.githubusercontent.com/amritsarcottonclothhouse/assests/main/';
+
   return (
     <main className="bg-[#ffffff] text-neutral-900 selection:bg-[#D4AF37] selection:text-white">
 
@@ -130,10 +133,10 @@ function App() {
           {/* Category Grid with Background Images */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: 'Luxury Silk', img: '/fabric/silk.png' },
-              { name: 'Premium Linen', img: '/fabric/linen.png' },
-              { name: 'Organic Cotton', img: '/fabric/organicCotton.png' },
-              { name: 'Rich Rayon', img: '/fabric/rayon.png' },
+              { name: 'Luxury Silk', img: `${baseUrl}/silk.png` },
+              { name: 'Premium Linen', img: `${baseUrl}/linen.png` },
+              { name: 'Organic Cotton', img: `${baseUrl}/organicCotton.png` },
+              { name: 'Rich Rayon', img: `${baseUrl}/rayon.png` },
             ].map((cat) => (
               <div
                 key={cat.name}
