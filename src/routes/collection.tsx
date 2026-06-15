@@ -6,23 +6,26 @@ export const Route = createFileRoute('/collection')({
 });
 
 function CollectionsPage() {
+  const baseUrl =
+    'https://raw.githubusercontent.com/amritsarcottonclothhouse/assests/main/';
+
   const collections = [
-    { name: 'Luxury Silk', img: '/fabric/silk.png' },
-    { name: 'Fancy Shimmer', img: '/fabric/shimmer.png' },
-    { name: 'Premium Linen', img: '/fabric/linen.png' },
-    { name: 'Organic Cotton', img: '/fabric/organicCotton.png' },
-    { name: 'Khadi Cotton', img: '/fabric/khadiCotton.png' },
-    { name: 'Cora Cotton', img: '/fabric/coraCotton.png' },
-    { name: 'Muslin Fabric', img: '/fabric/muslin.png' },
-    { name: 'Wool Blends', img: '/fabric/wool.png' },
-    { name: 'Velvet Soft', img: '/fabric/velvet.png' },
-    { name: 'Chiffon', img: '/fabric/shiffon.png' },
-    { name: 'Poplin Fabric', img: '/fabric/poplin.png' },
-    { name: 'Kota Fabric', img: '/fabric/Kota.png' },
-    { name: 'Rich Rayon', img: '/fabric/rayon.png' },
-    { name: 'Foil Fabric', img: '/fabric/foil.png' },
-    { name: 'Cambric Cotton', img: '/fabric/cambricCotton.png' },
-    { name: 'Fine Denim', img: '/fabric/denim.png' },
+    { name: 'Luxury Silk', img: `${baseUrl}/silk.png` },
+    { name: 'Fancy Shimmer', img: `${baseUrl}/shimmer.png` },
+    { name: 'Premium Linen', img: `${baseUrl}/linen.png` },
+    { name: 'Organic Cotton', img: `${baseUrl}/organicCotton.png` },
+    { name: 'Khadi Cotton', img: `${baseUrl}/khadiCotton.png` },
+    { name: 'Cora Cotton', img: `${baseUrl}/coraCotton.png` },
+    { name: 'Muslin Fabric', img: `${baseUrl}/muslin.png` },
+    { name: 'Wool Blends', img: `${baseUrl}/wool.png` },
+    { name: 'Velvet Soft', img: `${baseUrl}/velvet.png` },
+    { name: 'Chiffon', img: `${baseUrl}/shiffon.png` },
+    { name: 'Poplin Fabric', img: `${baseUrl}/poplin.png` },
+    { name: 'Kota Fabric', img: `${baseUrl}/Kota.png` },
+    { name: 'Rich Rayon', img: `${baseUrl}/rayon.png` },
+    { name: 'Foil Fabric', img: `${baseUrl}/foil.png` },
+    { name: 'Cambric Cotton', img: `${baseUrl}/cambricCotton.png` },
+    { name: 'Fine Denim', img: `${baseUrl}/denim.png` },
   ];
 
   return (
@@ -71,8 +74,8 @@ function CollectionsPage() {
             <h3 className="text-2xl font-serif mb-4">Can't find what you need?</h3>
             <p className="text-neutral-600 mb-8">Visit our shop in Kashipur for personalized fabric consultations.</p>
             <button
-            onClick={() => window.open('https://maps.app.goo.gl/UGGqtgVimaDpdbFV7', '_blank')}
-             className="flex items-center gap-2 mx-auto text-[#C8A04A] font-bold hover:gap-4 transition-all">
+              onClick={() => window.open('https://maps.app.goo.gl/UGGqtgVimaDpdbFV7', '_blank')}
+              className="flex items-center gap-2 mx-auto text-[#C8A04A] font-bold hover:gap-4 transition-all">
               Get Directions <ArrowRight size={20} />
             </button>
           </div>
