@@ -122,7 +122,10 @@ export default function Header() {
 
         {/* Footer */}
         <div className="border-t border-[#ECE7DD] p-6">
-          <button onClick={() => navigate({ to: '/store' })} className="w-full rounded-xl cursor-pointer bg-gradient-to-r from-[#D4AF37] via-[#C8A04A] to-[#B8860B] py-4 font-semibold text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl">
+          <button onClick={() => {
+            navigate({ to: '/store' })
+            setOpen(false)
+          }} className="w-full rounded-xl cursor-pointer bg-gradient-to-r from-[#D4AF37] via-[#C8A04A] to-[#B8860B] py-4 font-semibold text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl">
             Visit Shop →
           </button>
         </div>
