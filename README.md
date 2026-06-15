@@ -1,193 +1,320 @@
-Welcome to your new TanStack Start app! 
+# 🧵 Amritsar Cloth House Website
 
-# Getting Started
+<p align="center">
+  <strong>A modern, premium fabric showroom website built with React, TypeScript, TanStack Router, Vite, and Tailwind CSS.</strong>
+</p>
 
-To run this application:
+---
+
+# 📖 Overview
+
+Amritsar Cloth House is a responsive business website designed for a premium fabric store. The website showcases the shop's collections, heritage, services, and store information while providing customers with a modern digital experience.
+
+The project focuses on elegant UI/UX, fast performance, responsive layouts, and clean code architecture.
+
+---
+
+# ✨ Features
+
+## 🏠 Home Page
+
+- Premium Hero Section
+- Auto-scrolling Fabric Gallery
+- Featured Fabric Categories
+- Business Highlights
+- Why Choose Us Section
+- Customer Trust Indicators
+- Frequently Asked Questions
+- Call-to-Action Sections
+
+---
+
+## 📚 About Page
+
+- Company Story
+- Brand Heritage
+- Vision & Mission
+- Core Business Values
+- Quality Standards
+- Ethical Sourcing
+- Premium Craftsmanship
+- Personalized Customer Service
+
+---
+
+## 🧵 Collections Page
+
+Showcases premium fabric categories including:
+
+- Luxury Silk
+- Premium Linen
+- Organic Cotton
+- Khadi Cotton
+- Cora Cotton
+- Muslin
+- Wool
+- Velvet
+- Chiffon
+- Poplin
+- Rayon
+- Cambric Cotton
+- Denim
+- Kota Fabric
+- Shimmer
+- Foil Fabrics
+
+---
+
+## 📍 Store Page
+
+Includes
+
+- Shop Address
+- Contact Number
+- Email Address
+- Business Hours
+- Embedded Google Map
+- Easy Navigation for Customers
+
+---
+
+# 🎨 UI Features
+
+- Modern Luxury Theme
+- Golden, White & Black Color Palette
+- Fully Responsive Layout
+- Smooth Hover Animations
+- Elegant Typography
+- Premium Card Designs
+- Interactive Components
+- Clean User Experience
+
+---
+
+# ⚡ Technical Features
+
+- Component-Based Architecture
+- File-Based Routing
+- Reusable UI Components
+- Fast Build with Vite
+- Responsive Design
+- Optimized Images
+- Type Safety with TypeScript
+- SEO Friendly Structure
+- Scalable Codebase
+
+---
+
+# 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| React 19 | Frontend Library |
+| TypeScript | Type Safety |
+| Vite | Build Tool |
+| TanStack Router | Routing |
+| Tailwind CSS v4 | Styling |
+| Lucide React | Icons |
+
+---
+
+# 📁 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Header.tsx
+│   └── Footer.tsx
+│
+├── routes/
+│   ├── index.tsx
+│   ├── about.tsx
+│   ├── collection.tsx
+│   ├── store.tsx
+│   └── __root.tsx
+│
+├── router.tsx
+├── routeTree.gen.ts
+└── styles.css
+
+public/
+│
+├── fabric/
+├── about.jpeg
+├── Logo.png
+└── home images
+```
+
+---
+
+# 📱 Responsive Design
+
+The application is fully optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+---
+
+# 🚀 Performance
+
+- Fast Loading
+- Optimized Assets
+- Lightweight Components
+- Responsive Images
+- Efficient Routing
+- Modern JavaScript Bundling
+
+---
+
+# 🎯 Business Goals
+
+The website is designed to:
+
+- Increase brand visibility
+- Showcase premium fabric collections
+- Build customer trust
+- Improve customer engagement
+- Drive store visits
+- Present a luxury online presence
+
+---
+
+# 🔐 Current Functionality
+
+- Static Business Website
+- Product Collection Showcase
+- Contact Information
+- Store Details
+- Customer Information Pages
+
+---
+
+# 🔮 Future Enhancements
+
+Potential upgrades include:
+
+- Online Shopping
+- Shopping Cart
+- User Authentication
+- Customer Accounts
+- Wishlist
+- Product Search
+- Advanced Filters
+- Product Categories
+- Inventory Management
+- Admin Dashboard
+- Order Management
+- Payment Gateway Integration
+- Email Notifications
+- WhatsApp Integration
+- Customer Reviews
+- Live Chat Support
+- Blog Section
+- Multi-language Support
+- Dark Mode
+- Analytics Dashboard
+
+---
+
+# 💻 Installation
+
+Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+Navigate into the project
+
+```bash
+cd project-name
+```
+
+Install dependencies
 
 ```bash
 npm install
+```
+
+Run development server
+
+```bash
 npm run dev
 ```
 
-# Building For Production
-
-To build this application for production:
+Build for production
 
 ```bash
 npm run build
 ```
 
-## Testing
-
-This project uses [Vitest](https://vitest.dev/) for testing. You can run the tests with:
+Preview production build
 
 ```bash
-npm run test
+npm run preview
 ```
 
-## Styling
+---
 
-This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
+# 📦 Dependencies
 
-### Removing Tailwind CSS
+Main dependencies include:
 
-If you prefer not to use Tailwind CSS:
+- React
+- React DOM
+- TypeScript
+- Vite
+- TanStack Router
+- Tailwind CSS
+- Lucide React
 
-1. Remove the demo pages in `src/routes/demo/`
-2. Replace the Tailwind import in `src/styles.css` with your own styles
-3. Remove `tailwindcss()` from the plugins array in `vite.config.ts`
-4. Uninstall the packages: `npm install @tailwindcss/vite tailwindcss -D`
+---
 
+# 🎨 Design Philosophy
 
+The website follows a premium luxury aesthetic inspired by high-end textile brands.
 
-## Routing
+Design principles include:
 
-This project uses [TanStack Router](https://tanstack.com/router) with file-based routing. Routes are managed as files in `src/routes`.
+- Minimalism
+- Elegant Typography
+- Luxury Color Scheme
+- Spacious Layouts
+- Visual Hierarchy
+- High-quality Imagery
+- Smooth User Experience
 
-### Adding A Route
+---
 
-To add a new route to your application just add a new file in the `./src/routes` directory.
+# 📈 Advantages
 
-TanStack will automatically generate the content of the route file for you.
+- Fast Performance
+- Professional Appearance
+- Easy Navigation
+- Responsive Design
+- Easy Maintenance
+- Scalable Architecture
+- Clean Code
+- Modern Technology Stack
 
-Now that you have two routes you can use a `Link` component to navigate between them.
+---
 
-### Adding Links
+# 👨‍💻 Developed By
 
-To use SPA (Single Page Application) navigation you will need to import the `Link` component from `@tanstack/react-router`.
+**Ayaan**
 
-```tsx
-import { Link } from "@tanstack/react-router";
-```
+Full Stack Web Developer
 
-Then anywhere in your JSX you can use it like so:
+Built using modern web technologies with a focus on performance, scalability, and premium user experience.
 
-```tsx
-<Link to="/about">About</Link>
-```
+---
 
-This will create a link that will navigate to the `/about` route.
+# 📄 License
 
-More information on the `Link` component can be found in the [Link documentation](https://tanstack.com/router/v1/docs/framework/react/api/router/linkComponent).
+This project is intended for commercial business use by **Amritsar Cloth House**.
 
-### Using A Layout
-
-In the File Based Routing setup the layout is located in `src/routes/__root.tsx`. Anything you add to the root route will appear in all the routes. The route content will appear in the JSX where you render `{children}` in the `shellComponent`.
-
-Here is an example layout that includes a header:
-
-```tsx
-import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
-
-export const Route = createRootRoute({
-  head: () => ({
-    meta: [
-      { charSet: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { title: 'My App' },
-    ],
-  }),
-  shellComponent: ({ children }) => (
-    <html lang="en">
-      <head>
-        <HeadContent />
-      </head>
-      <body>
-        <header>
-          <nav>
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-          </nav>
-        </header>
-        {children}
-        <Scripts />
-      </body>
-    </html>
-  ),
-})
-```
-
-More information on layouts can be found in the [Layouts documentation](https://tanstack.com/router/latest/docs/framework/react/guide/routing-concepts#layouts).
-
-## Server Functions
-
-TanStack Start provides server functions that allow you to write server-side code that seamlessly integrates with your client components.
-
-```tsx
-import { createServerFn } from '@tanstack/react-start'
-
-const getServerTime = createServerFn({
-  method: 'GET',
-}).handler(async () => {
-  return new Date().toISOString()
-})
-
-// Use in a component
-function MyComponent() {
-  const [time, setTime] = useState('')
-  
-  useEffect(() => {
-    getServerTime().then(setTime)
-  }, [])
-  
-  return <div>Server time: {time}</div>
-}
-```
-
-## API Routes
-
-You can create API routes by using the `server` property in your route definitions:
-
-```tsx
-import { createFileRoute } from '@tanstack/react-router'
-import { json } from '@tanstack/react-start'
-
-export const Route = createFileRoute('/api/hello')({
-  server: {
-    handlers: {
-      GET: () => json({ message: 'Hello, World!' }),
-    },
-  },
-})
-```
-
-## Data Fetching
-
-There are multiple ways to fetch data in your application. You can use TanStack Query to fetch data from a server. But you can also use the `loader` functionality built into TanStack Router to load the data for a route before it's rendered.
-
-For example:
-
-```tsx
-import { createFileRoute } from '@tanstack/react-router'
-
-export const Route = createFileRoute('/people')({
-  loader: async () => {
-    const response = await fetch('https://swapi.dev/api/people')
-    return response.json()
-  },
-  component: PeopleComponent,
-})
-
-function PeopleComponent() {
-  const data = Route.useLoaderData()
-  return (
-    <ul>
-      {data.results.map((person) => (
-        <li key={person.name}>{person.name}</li>
-      ))}
-    </ul>
-  )
-}
-```
-
-Loaders simplify your data fetching logic dramatically. Check out more information in the [Loader documentation](https://tanstack.com/router/latest/docs/framework/react/guide/data-loading#loader-parameters).
-
-# Demo files
-
-Files prefixed with `demo` can be safely deleted. They are there to provide a starting point for you to play around with the features you've installed.
-
-# Learn More
-
-You can learn more about all of the offerings from TanStack in the [TanStack documentation](https://tanstack.com).
-
-For TanStack Start specific documentation, visit [TanStack Start](https://tanstack.com/start).
+All rights reserved.
